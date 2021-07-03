@@ -1,0 +1,27 @@
+{
+  "name": "toggle",
+  "version": "1.0.0",
+  "description": "A simple slider tutorial in HTML, CSS and JS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npm run start && npm run build",
+    "build": "npx node-sass style.scss style.bundle.css",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFarish/Toggle.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xFarish/Toggle/issues"
+  },
+  "homepage": "https://github.com/xFarish/Toggle#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-sass": "^6.0.1"
+  }
+}
